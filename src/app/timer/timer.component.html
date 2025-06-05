@@ -1,5 +1,5 @@
-<div class="container">
-  <h1>Pomodoro Timer</h1>
+<div class="container"  [ngClass]="{ 'work-phase' : isWorkPhase, 'break-phase' : !isWorkPhase}">
+  <h1>集中力が続く魔法のタイマー</h1>
 
   <div class="timer-display">
     <h2>{{ minutes }}:{{ seconds | number: '2.0' }}</h2>
@@ -11,4 +11,4 @@
     <button (click)="pauseTimer()">Pause</button>
     <button (click)="resetTimer()">Reset</button>
   </div>
-</div>
+ </div>

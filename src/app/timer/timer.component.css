@@ -1,0 +1,35 @@
+.container {
+  text-align: center;
+  height: 60vh;
+  width: 100%;
+  transition: background-color 0.3s ease;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+
+.timer-display h2 {
+  font-size: 64px;
+  margin: 20px 0;
+}
+
+.timer-display p {
+  font-size: 24px;
+  color: gray;
+}
+
+.controls button {
+  margin: 16px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.work-phase {
+  background-color: #D7CCC8;
+  color: #333;
+}
+
+.break-phase {
+  background-color: #A5D6A7;
+  color: #333;
+}
+
